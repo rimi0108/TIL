@@ -48,3 +48,5 @@ ex)
 10. 서버는 받은 Access Token이 조작되지 않았는지 확인한 후 Refresh Token과 사용자의 DB에 저장되어 있던 Refresh Token을 비교한다.
 11. Token이 동일하고 유효기간도 지나지 않았다면 새로운 Access Token을 발급한다.
 12. 서버는 새로운 Access Token을 헤더에 실어 다시 API 요청을 진행한다.
+
+
